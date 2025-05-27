@@ -2,66 +2,66 @@
   "products": [
     {
       "id": 1,
-      "title": "Laptop HP Pavilion 15",
-      "description": "La HP Pavilion 15 cuenta con un procesador Intel Core i7, 16GB de RAM y 512GB SSD, ideal para trabajo y entretenimiento. Pantalla Full HD de 15.6” y batería de larga duración.",
+      "title": "Laptop Lenovo IdeaPad 3",
+      "description": "Laptop con procesador AMD Ryzen 5, 8GB de RAM y 256GB SSD. Perfecta para estudiantes y profesionales.",
+      "price": 520,
+      "discountPercentage": 10.0,
+      "rating": 4.5,
+      "stock": 25,
+      "brand": "Lenovo",
       "category": "laptops",
-      "price": 899.99,
-      "discountPercentage": 10.5,
-      "rating": 4.7,
-      "stock": 12,
-      "tags": [
-        "laptop",
-        "HP",
-        "Intel",
-        "SSD"
-      ],
-      "brand": "HP",
-      "sku": "HP-PAV15-I7",
-      "weight": 2.1,
-      "dimensions": {
-        "width": 35.8,
-        "height": 1.8,
-        "depth": 24.2
-      },
-      "warrantyInformation": "1 año de garantía",
-      "shippingInformation": "Envío en 3 a 5 días hábiles",
-      "availabilityStatus": "En stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Excelente rendimiento para el precio.",
-          "date": "2024-05-23T08:56:21.618Z",
-          "reviewerName": "Carlos Pérez",
-          "reviewerEmail": "carlos.perez@ejemplo.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Buena calidad, pero se calienta un poco.",
-          "date": "2024-05-23T08:56:21.618Z",
-          "reviewerName": "Laura Gómez",
-          "reviewerEmail": "laura.gomez@ejemplo.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Perfecta para mis tareas universitarias.",
-          "date": "2024-05-23T08:56:21.618Z",
-          "reviewerName": "Daniel Rojas",
-          "reviewerEmail": "daniel.rojas@ejemplo.com"
-        }
-      ],
-      "returnPolicy": "Devolución dentro de 15 días",
-      "minimumOrderQuantity": 1,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.618Z",
-        "updatedAt": "2024-05-23T08:56:21.618Z",
-        "barcode": "8435310293847",
-        "qrCode": "..."
-      },
-      "thumbnail": "...",
-      "images": ["...", "...", "..."]
+      "images": "https://example.com/images/laptop_lenovo_ideapad3.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Monitor LG UltraGear 27”",
+      "description": "Monitor gamer Full HD 144Hz con panel IPS y 1ms de respuesta.",
+      "price": 199,
+      "discountPercentage": 5.0,
+      "rating": 4.8,
+      "stock": 40,
+      "brand": "LG",
+      "category": "monitores",
+      "images": "https://example.com/images/monitor_lg_ultragear.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tarjeta Gráfica NVIDIA RTX 4060",
+      "description": "GPU de alto rendimiento ideal para gaming y diseño gráfico.",
+      "price": 459,
+      "discountPercentage": 15.0,
+      "rating": 4.9,
+      "stock": 10,
+      "brand": "NVIDIA",
+      "category": "tarjetas_graficas",
+      "images": "https://example.com/images/rtx4060.jpg"
+    },
+    {
+      "id": 4,
+      "title": "SSD Kingston NV2 1TB",
+      "description": "Unidad de estado sólido NVMe PCIe Gen 4 para alto rendimiento.",
+      "price": 85,
+      "discountPercentage": 7.5,
+      "rating": 4.2,
+      "stock": 35,
+      "brand": "Kingston",
+      "category": "almacenamiento",
+      "images": "https://example.com/images/kingston_nv2_1tb.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Procesador AMD Ryzen 7 5800X",
+      "description": "CPU de 8 núcleos y 16 hilos con gran potencia para gaming y tareas exigentes.",
+      "price": 300,
+      "discountPercentage": 12.0,
+      "rating": 4.6,
+      "stock": 18,
+      "brand": "AMD",
+      "category": "procesadores",
+      "images": "https://example.com/images/ryzen7_5800x.jpg"
     }
   ],
-  "total": 194,
+  "total": 5,
   "skip": 0,
-  "limit": 30
+  "limit": 5
 }
