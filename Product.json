@@ -1,4 +1,13 @@
-{
+const express = require('express');
+const cors = require('cors');
+const app = express();
+const port = 3000;
+
+// Middleware para permitir CORS
+app.use(cors());
+
+// Datos simulados
+const data = {
   "products": [
     {
       "id": 1,
@@ -64,4 +73,14 @@
   "total": 5,
   "skip": 0,
   "limit": 5
-}
+};
+
+// Ruta pública
+app.get('/api/products', (req, res) => {
+  res.json(data);
+});
+
+// Arrancar el servidor
+app.listen(port, () => {
+  console.log(`API disponible en http://localhost:${port}/api/products`);
+});
